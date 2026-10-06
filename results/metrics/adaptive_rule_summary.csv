@@ -1,0 +1,5 @@
+selected_method,count,percentage,mean_brightness,global_contrast,local_contrast,dynamic_range,noise_estimate,illumination_nonuniformity
+multi_scale_retinex,38,38.0,9.59,10.7,2.68,27.21,1.07,0.75
+clahe_enhancement,36,36.0,17.28,10.11,3.35,32.33,1.19,0.41
+denoising_enhancement,16,16.0,15.09,12.41,4.45,39.31,1.35,0.55
+gamma_correction,10,10.0,22.22,12.43,2.94,38.4,1.1,0.45

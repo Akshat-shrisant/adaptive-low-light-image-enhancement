@@ -1,0 +1,7 @@
+method,mean_runtime_ms,std_runtime_ms,min_runtime_ms,max_runtime_ms,approx_fps
+Gamma Correction (gamma=0.5),0.64,0.08,0.55,0.84,1556.6
+Histogram Equalization,0.69,0.1,0.58,0.86,1456.7
+CLAHE (clip=2.0),1.14,0.14,0.9,1.31,874.0
+Denoise (Bilateral) + CLAHE,3.32,0.11,3.16,3.55,301.6
+Single-Scale Retinex (SSR),41.64,0.92,40.19,43.92,24.0
+Multi-Scale Retinex (MSR),163.62,1.85,161.81,167.14,6.1

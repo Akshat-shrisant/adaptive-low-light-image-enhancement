@@ -1,0 +1,11 @@
+# Core dependencies for Adaptive Low-Light Image Enhancement (IVP Project)
+# Compatible with standard CPU execution on Windows
+
+numpy
+opencv-python
+scikit-image
+pandas
+matplotlib
+scipy
+pillow
+flask

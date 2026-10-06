@@ -1,0 +1,7 @@
+comparison,baseline_method,num_images,mean_psnr_diff,median_psnr_diff,psnr_wins,psnr_ties,psnr_losses,psnr_win_pct,mean_ssim_diff,median_ssim_diff,ssim_wins,ssim_ties,ssim_losses,ssim_win_pct
+Adaptive vs Gamma Correction,Gamma Correction,15,-1.814,-2.3,2,0,13,13.3,-0.1471,-0.1948,1,0,14,6.7
+Adaptive vs Histogram Equalization,Histogram Equalization,15,-3.996,-3.429,3,0,12,20.0,0.0039,0.0031,7,1,7,46.7
+Adaptive vs CLAHE,CLAHE,15,0.612,0.0,5,4,6,33.3,0.0295,0.0,6,5,4,40.0
+Adaptive vs Denoise + CLAHE,Denoise + CLAHE,15,0.852,0.171,9,4,2,60.0,0.0541,0.0206,9,6,0,60.0
+Adaptive vs Single-Scale Retinex (SSR),Single-Scale Retinex (SSR),15,-4.591,-4.836,4,0,11,26.7,-0.1561,-0.2252,2,3,10,13.3
+Adaptive vs Multi-Scale Retinex (MSR),Multi-Scale Retinex (MSR),15,-4.79,-5.011,2,3,10,13.3,-0.1478,-0.2107,2,3,10,13.3
